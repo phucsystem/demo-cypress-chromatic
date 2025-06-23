@@ -48,7 +48,7 @@ const LoginForm: React.FC = () => {
   return (
     <Container size={1200} my={60}>
       <Title ta="center" fw={900} size="h1" mb="xs">
-        Welcome back phuc 1234!
+        Welcome back phuc 12345!
       </Title>
       <Text c="dimmed" size="lg" ta="center" mb={30}>
         Sign in to your account to continue
