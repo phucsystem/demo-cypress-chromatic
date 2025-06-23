@@ -31,7 +31,7 @@ const LoginForm: React.FC = () => {
     },
     validate: {
       email: (value) => (/^\S+@\S+$/.test(value) ? null : 'Invalid email'),
-      password: (value) => (value.length < 6 ? 'Password must be at least 6 characters' : null),
+      password: (value) => (value.length < 6 ? 'Password must be at least 6 characters 123' : null),
     },
   });
 
