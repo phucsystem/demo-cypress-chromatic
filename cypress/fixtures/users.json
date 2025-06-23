@@ -1,0 +1,31 @@
+{
+  "validUser": {
+    "email": "user@example.com",
+    "password": "password123"
+  },
+  "adminUser": {
+    "email": "admin@example.com",
+    "password": "adminpass123"
+  },
+  "testUser": {
+    "email": "test@test.com",
+    "password": "testpass123"
+  },
+  "invalidUsers": [
+    {
+      "email": "invalid-email",
+      "password": "password123",
+      "error": "Invalid email"
+    },
+    {
+      "email": "user@example.com",
+      "password": "123",
+      "error": "Password must be at least 6 characters"
+    },
+    {
+      "email": "",
+      "password": "",
+      "error": "Required fields"
+    }
+  ]
+} 
